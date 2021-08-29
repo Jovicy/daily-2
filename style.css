@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #070c20;
+}
+
+span {
+    color: #58ddde;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #58ddde;
+}
+nav ul li {
+    text-decoration: none;
+    padding: 2em 2em;
+    list-style: none;
+}
+.logo {
+    flex: 0.9;
+}
+.header-text {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 20px;
+}
+.text h1 {
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 32px;
+}
+.text p {
+    color: #fff;
+    width: 450px;
+    margin: 20px;
+}
+.text img {
+    filter: invert(1);
+}
+
+.baseline {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    line-height: 23px;
+}
+
+.baseline-set {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.baseline-set p {
+    width: 220px;
+    text-align: left;
+    margin: 20px 2px;
+}
+.base-sets {
+    margin-bottom: 45px;
+}
+.base {
+    margin-top: 45px;
+}
+.pricing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.price-text p {
+    width: 450px;
+    margin: 15px;
+    line-height: 20px;
+}
+.containers {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    margin-top: 55px;
+}
+.light-containers {
+    background: #0b3a64;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    color: #58ddde;
+    width: 25%;
+    padding: 3em 3em;
+    gap: 15px;
+}
+.dark-containers {
+    background: #58ddde;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    color: #0b3a64;
+    width: 25%;
+    padding: 3em 3em;
+    gap: 15px;
+}
+
+.p {
+    width: 300px;
+}
+
+.s {
+    font-size: 16px;
+    color: #36c8cb;
+    margin-left: 4px;
+}
+
+.contact {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+input {
+    border-radius: 25px;
+    background: #58ddde;
+    color: #0b3a64;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+.notification {
+    border-radius: 25px;
+    color: #58ddde;
+    background: #0b3a64;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
